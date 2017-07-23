@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="assignment.ideasuggest2.dessert">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/francefood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/francefood" />
+
+            <ImageButton
+                android:id="@+id/italianfood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/italianfood" />
+
+            <ImageButton
+                android:id="@+id/koreafood"
+                android:layout_width="364dp"
+                android:layout_height="250dp"
+                app:srcCompat="@drawable/koreafood" />
+
+            <ImageButton
+                android:id="@+id/thaifood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/thaifood" />
+
+            <ImageButton
+                android:id="@+id/westernfood"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/westernfood" />
+            
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

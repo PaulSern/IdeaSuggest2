@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="assignment.ideasuggest2.drink">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/bandung"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bandung" />
+
+            <ImageButton
+                android:id="@+id/barley"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/barley" />
+
+            <ImageButton
+                android:id="@+id/cocacola"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/cocacola" />
+
+            <ImageButton
+                android:id="@+id/plus100"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/plus100" />
+
+            <ImageButton
+                android:id="@+id/sugarcane"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/sugarcane" />
+
+            <ImageButton
+                android:id="@+id/kopipeng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/kopipeng" />
+
+            <ImageButton
+                android:id="@+id/bubbletea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/bubbletea" />
+
+            <ImageButton
+                android:id="@+id/fruitjuice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/fruitjuice" />
+
+            <ImageButton
+                android:id="@+id/milo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/milo" />
+
+            <ImageButton
+                android:id="@+id/ribena"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ribena" />
+
+            <ImageButton
+                android:id="@+id/starbuck"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/starbuck" />
+
+            <ImageButton
+                android:id="@+id/tehpeng"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tehpeng" />
+
+            <ImageButton
+                android:id="@+id/tehtarik"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/tehtarik" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
